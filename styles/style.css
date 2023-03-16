@@ -128,9 +128,17 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 0% 5% 5% 5%;
+        gap: 30px;
     }
 
+    .apresentacao__imagem {
+        width: 70%;
+    }
     .apresentacao__conteudo {
         width: auto;
+    }
+    .apresentacao__links__navegacao {
+        width: 100%;
+
     }
 }
